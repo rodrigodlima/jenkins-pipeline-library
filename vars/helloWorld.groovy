@@ -1,4 +1,4 @@
-def helloWorld(String message) {
-    println $message
+def call(String message) {
+    println message
 }
     
