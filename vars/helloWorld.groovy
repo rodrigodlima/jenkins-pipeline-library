@@ -1,2 +1,4 @@
-def helloWorld(String message)
-println $message
+def helloWorld(String message) {
+    println $message
+}
+    
