@@ -1,3 +1,3 @@
 def call(String appName, String imageTag) {
-    sh "docker build -t ${appname:imageTag} . "
+    sh "buildah build --format=docker -t ${appname:imageTag} ."
 }
